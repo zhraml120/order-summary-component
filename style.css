@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+h4{
+    margin: 0;
+}
+.primary-link{
+    font-size: 14px;
+}
+.subcription a:hover{
+    color: hsl(247, 100%, 79%);
+    text-decoration: none;
+}
+button:hover{
+    background-color: hsl(247, 100%, 79%);
+}
+.sec-link{
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+.hero-content a:hover{
+    color: hsl(225, 24%, 37%);
+}
+.hero-img img{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+}
+.hero-content{
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.hero-text{
+    max-width: 330px;
+}
+.subcription{
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 20px;
+    column-gap: 60px;
+}
+.sub-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.annual{
+    font-weight: 700;
+}
+.price, p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.primary-btn{
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 12px 10px rgb(212 207 207);
+    cursor: pointer;
+}
+.color{
+    color: hsl(225, 100%, 94%);
+    color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 375px) {
+    main {
+      width: 100%;
+    }
+  }
